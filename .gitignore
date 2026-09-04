@@ -1,0 +1,87 @@
+# Build artifacts
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.d
+*.gch
+*.pch
+*.mod
+*.smod
+*.i
+*.s
+*.bc
+*.ll
+build/
+bin/
+out/
+dist/
+cmake-build-*/
+
+# Executables
+a.out
+*.exe
+*.out
+*.app
+*.elf
+
+# Debug / profile
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+gmon.out
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.profraw
+perf.data
+perf.data.old
+*.optrpt
+
+# MPI / job systems
+*.mpirun
+rankfile
+core
+core.*
+vgcore.*
+slurm-*.out
+*.e[0-9]*
+*.o[0-9]*
+
+# Python (plots, notebooks)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+.ipynb_checkpoints/
+
+# Editors / IDEs
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+hosts.yml
