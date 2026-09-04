@@ -50,22 +50,3 @@ Keep a **personal access token** (`repo` scope) in a password manager if you wan
 ```bash
 gh auth login --with-token
 ```
-
-## Day-to-day workflow
-
-**Teammates:** do not push to `main`. Branch, open a PR, get one approving review, then merge.
-
-```bash
-git checkout -b your-initials/short-description
-# commit your work
-git push -u origin HEAD
-gh pr create --fill
-```
-
-After a teammate approves:
-
-```bash
-gh pr merge --squash
-```
-
-**Owner (`hdnate08`):** you can push to `main` or merge your own PRs without an approving review. Teammates still cannot.

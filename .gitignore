@@ -22,6 +22,7 @@ dist/
 cmake-build-*/
 
 # Executables
+main
 a.out
 *.exe
 *.out
