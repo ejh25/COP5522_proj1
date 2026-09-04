@@ -1,9 +1,5 @@
 # COP5522 Project 1
 
-Group repository. `main` is protected: everyone except the repo owner (`hdnate08`) must open a pull request and get at least one approving review before merge. The owner can push and merge without a review.
-
-Give teammates **Write** access, not Admin. Admin is the bypass, so another admin would also skip the reviewer requirement.
-
 ## Clone
 
 You need an SSH key on your GitHub account. Then:
